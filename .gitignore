@@ -1,0 +1,20 @@
+# Archivos de compilación
+*.pyc
+*.pyo
+__pycache__/
+
+# Entorno virtual
+env/
+
+# Archivos de configuración local
+*.sqlite3
+*.pyc
+
+# Archivos de medios generados
+/media/
+
+# Directorio de archivos estáticos
+/static/
+
+# Archivo de variables de entorno
+.env

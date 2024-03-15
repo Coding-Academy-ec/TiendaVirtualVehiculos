@@ -1,7 +1,9 @@
 # Tienda Virtual de Vehículos
 
 <div align="center">
+
 ![Tienda Virtual de Vehículos](./img/app_django_vehiculos.png)
+
 </div>
 
 Este proyecto es una tienda virtual de vehículos desarrollada utilizando Django. Permite a los usuarios explorar una variedad de vehículos, ver detalles sobre cada uno de ellos y realizar consultas o compras.

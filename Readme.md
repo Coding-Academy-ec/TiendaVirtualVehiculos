@@ -49,6 +49,20 @@ python manage.py runserver
 ```
 8. Accede a la aplicación en tu navegador web en [http://localhost:8000/](http://localhost:8000/).
 
+## Mejoras al Sistema
+
+Los estudiantes que hayan seguido este tutorial pueden considerar las siguientes mejoras para el sistema:
+
+- Implementar un sistema de autenticación de usuarios para permitir que los clientes se registren, inicien sesión y administren sus perfiles.
+
+- Agregar funcionalidades de búsqueda y filtrado en la lista de vehículos para que los usuarios puedan encontrar fácilmente los vehículos que desean.
+
+- Incorporar un carrito de compras para permitir a los usuarios agregar vehículos a su carrito y realizar compras en línea de manera segura.
+
+- Desarrollar un panel de administración más robusto para que los administradores puedan gestionar fácilmente los vehículos, los usuarios y las órdenes de compra.
+
+- Mejorar la interfaz de usuario con estilos CSS y JavaScript para hacerla más atractiva y fácil de usar.
+
 # Contribución
 
 ¡Las contribuciones son bienvenidas! Si quieres contribuir a este proyecto, por favor sigue las pautas en [CONTRIBUTING.md](CONTRIBUTING.md).

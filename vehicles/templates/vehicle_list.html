@@ -9,11 +9,13 @@
     <h1>Lista de Vehículos</h1>
     <ul>
         {% for vehicle in vehicle_list %}
-            <li>
-                <a href="{% url 'vehicle_detail' vehicle.id %}">{{ vehicle.name }}</a>
-                <img src="{{ vehicle.image.url }}" alt="{{ vehicle.name }} Image">
-            </li>
-        {% endfor %}
+        <h2>{{ vehicle.name }}</h2>
+        {% if vehicle.image %}
+            <img src="{{ vehicle.image.url }}" alt="{{ vehicle.name }}">
+        {% else %}
+            <p>No hay imagen disponible</p>
+        {% endif %}
+    {% endfor %}
     </ul>
 </body>
 </html>

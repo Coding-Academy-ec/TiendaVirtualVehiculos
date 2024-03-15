@@ -8,13 +8,22 @@
 <body>
     <h1>Detalles del Vehículo</h1>
     <ul>
-        <li><strong>Nombre:</strong> {{ vehicle.name }}</li>
+        <h2>{{ vehicle.name }}</h2>
+        {% if has_image %}
+            <img src="{{ vehicle.image.url }}" alt="{{ vehicle.name }}">
+        {% else %}
+            <p>No hay imagen disponible</p>
+        {% endif %}
         <li><strong>Marca:</strong> {{ vehicle.brand }}</li>
         <li><strong>Modelo:</strong> {{ vehicle.model }}</li>
         <li><strong>Año:</strong> {{ vehicle.year }}</li>
         <li><strong>Precio:</strong> {{ vehicle.price }}</li>
         <!-- Agrega la etiqueta img para mostrar la imagen del vehículo -->
-        <li><strong>Imagen:</strong> <img src="{{ vehicle.image.url }}" alt="Imagen del vehículo"></li>
-    </ul>
-</body>
+        {% if vehicle.image %}
+        <img src="{{ vehicle.image.url }}" alt="Vehicle Image">
+        {% else %}
+            <p>No image available</p>
+        {% endif %}
+            </ul>
+    </body>
 </html>
